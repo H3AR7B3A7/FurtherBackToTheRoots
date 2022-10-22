@@ -1,0 +1,5 @@
+# Exclude Everything that isn't a path or has an extension
+# (= extension-less files)
+*
+!/**/
+!*.*
