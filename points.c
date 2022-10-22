@@ -3,18 +3,19 @@
 
 int main(void)
 {
+    const int my_score = 2;
     int points = get_int("Howmany points did you lose? ");
 
-    if (points < 2)
+    if (points < my_score)
     {
         printf("You lose fewer points than me.\n");
     }
-    else if (points > 2)
+    else if (points > my_score)
     {
         printf("You lost more points than me.\n");
     }
     else
     {
-        printf("We tied!");
+        printf("We tied!\n");
     }
 }
