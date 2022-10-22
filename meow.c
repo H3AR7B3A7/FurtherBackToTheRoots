@@ -1,16 +1,28 @@
 #include <cs50.h>
 #include <stdio.h>
 
+void meow(int n);
+void bark(int n);
+
 int main(void)
 {
+    meow(3);
+    bark(2);
+}
+
+void meow(int n)
+{
     int i = 0;
-    while (i < 3)
+    while (i < n)
     {
         printf("Meow...");
         i++;
     }
+}
 
-    for (int j = 0; j < 3; j++)
+void bark(int n)
+{
+    for (int j = 0; j < n; j++)
     {
         printf("Bark...");
     }
