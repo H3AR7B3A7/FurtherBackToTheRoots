@@ -2,16 +2,27 @@
 #include <string.h>
 #include <stdio.h>
 
+typedef struct
+{
+    string name;
+    string number;
+} person;
+
 int main(void)
 {
-    string names[] = {"Steven", "David"};
-    string numbers[] = {"+32-479-318-743", "+1-949-468-2750"};
+    person people[2];
+
+    people[0].name = "Steven";
+    people[0].number = "+32-479-318-743";
+
+    people[1].name = "David";
+    people[1].number = "+1-949-468-2750";
 
     for (int i = 0; i < 2; i++)
     {
-        if (strcmp(names[i], "Steven") == 0)
+        if (strcmp(people[i].name, "Steven") == 0)
         {
-            printf("Found: %s\n", numbers[i]);
+            printf("Found: %s\n", people[i].number);
             return 0;
         }
     }
