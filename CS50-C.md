@@ -102,3 +102,13 @@ _Or just talk it through with a rubber duck._
 - double (8 bytes)
 - string (? bytes)
 - ...
+
+## Complexity
+
+- O(n²)
+- O(n log n)
+- O(n)
+- O(log n)
+- O(1)
+
+_The best case scenario is similarly described by Ω. If O and Ω are the same, we can use θ._
