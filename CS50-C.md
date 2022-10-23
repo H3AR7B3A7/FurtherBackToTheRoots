@@ -82,3 +82,23 @@ For Windows however we will need to:
   Assemble the code to binary
 - Linking
   Combining all different files (ex: name.c, cs50.c, and the files that make stdio)
+
+## Debugging
+
+- Add the C/C++ plugins to VLC
+- Run the debugger using the play button, generating the `tasks.json`
+- Edit the tasks.json to include links to the used libraries
+- Run the debugger again
+
+_Or just talk it through with a rubber duck._
+
+## Types
+
+- bool (1 byte)
+- char (1 byte)
+- int (4 bytes)
+- float (4 bytes)
+- long (8 bytes)
+- double (8 bytes)
+- string (? bytes)
+- ...
