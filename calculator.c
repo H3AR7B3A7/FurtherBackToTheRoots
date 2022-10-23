@@ -4,11 +4,14 @@
 int main(void)
 {
     // Prompt user for x
-    long x = get_long("x: ");
+    int x = get_int("x: ");
 
     // Prompt user for y
-    long y = get_long("y: ");
+    int y = get_int("y: ");
+
+    // Divide x by y
+    float z = x / (float)y;
 
     // Perform addition & print
-    printf("%li\n", x + y);
+    printf("%.50f\n", z); // Floating point imprecision
 }
