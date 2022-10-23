@@ -46,13 +46,17 @@ To install the cs50 library on linux or mac check out the [docs](https://cs50.re
 
   > source ~/.zshrc
 
-- Install clang
+- Install clang (the compiler)
 
   > sudo apt install clang
 
 - Use
 
   > make hello
+
+  or
+
+  > clang -o hello hello.c -lcs50
 
 ### Windows
 
@@ -67,3 +71,14 @@ For Windows however we will need to:
 - Use
 
   > gcc -o hello hello.c cs50.c
+
+## Compilation
+
+- Preprocessing
+  Replacing the preprocessing directives with the prototypes in the header files.
+- Compiling
+  Compile the code to assembly
+- Assemble
+  Assemble the code to binary
+- Linking
+  Combining all different files (ex: name.c, cs50.c, and the files that make stdio)
