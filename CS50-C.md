@@ -1,5 +1,9 @@
 # CS50: C
 
+## Intro
+
+[Scratch](https://scratch.mit.edu/)
+
 ## Install Make
 
 ### Linux
@@ -112,3 +116,14 @@ _Or just talk it through with a rubber duck._
 - O(1)
 
 _The best case scenario is similarly described by Ω. If O and Ω are the same, we can use θ._
+
+## Valgrind Memory Check
+
+- Install
+
+  > sudo apt install valgrind
+
+- Use
+
+  > valgrind ./programname
+
