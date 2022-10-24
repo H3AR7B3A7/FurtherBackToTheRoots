@@ -12,4 +12,8 @@ int main(void)
 
     char *q = &s[0];
     printf("%p\n", q); // address of first char in string (=)
+
+    printf("%p\n", &s[1]); // (i) address = one higher
+    printf("%p\n", &s[2]); // (!) ... one higher
+    printf("%p\n", &s[3]); // (\0) ... one higher
 }
