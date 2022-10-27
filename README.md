@@ -126,3 +126,11 @@ _The best case scenario is similarly described by Ω. If O and Ω are the same, 
 - Use
 
   > valgrind ./programname
+
+## Data Structures
+
+- Array
+- Linked List
+- Tree
+- Hash Table
+- Trie
