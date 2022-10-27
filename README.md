@@ -1,5 +1,7 @@
 # CS50 (part 1)
 
+Collection of small applications following along with [Harvard CS50](https://www.youtube.com/watch?v=8mAITcNt710).
+
 ## Intro
 
 [Scratch](https://scratch.mit.edu/)
